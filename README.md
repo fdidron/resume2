@@ -6,7 +6,7 @@
     <img width="500" height="auto" src="https://i.imgur.com/IafmSKu.png" alt="homepagescreenshot" />
 </p>
 
-To view a demo example, **[click here](https://gianmarco.netlify.app/)**
+To view a demo example, **[click here](https://Florian.netlify.app/)**
 
 ## Features
 
@@ -64,4 +64,4 @@ You just need to fork this repo and linking it to your Netlify account.
 
 ## Authors ❤️
 
-- Gianmarco - https://github.com/Ladvace
+- Florian - https://github.com/Ladvace

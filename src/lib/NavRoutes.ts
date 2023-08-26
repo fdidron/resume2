@@ -1,20 +1,16 @@
 const routes = [
-	{
-		href: '/',
-		label: 'Home'
-	},
-	{
-		href: '/projects',
-		label: 'Projects'
-	},
-	{
-		href: '/about',
-		label: 'About'
-	},
-	{
-		href: '/blog',
-		label: 'Blog'
-	}
+    {
+        href: "/",
+        label: "Home"
+    },
+    {
+        href: "/about",
+        label: "About"
+    },
+    {
+        href: "/experience",
+        label: "Experience"
+    }
 ];
 
 export default routes;
