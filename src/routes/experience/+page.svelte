@@ -59,8 +59,7 @@
                                 href="https://www.zsa.io/wally/"
                                 target="_blank"
                                 rel="noopener nofollow">Wally</a
-                            >
-                            , a cross platform desktop application I also developed.
+                            >, a cross platform desktop application I also developed.
                         </p>
                         <p>
                             I'm also responsible for managing the infrastructure, nothing fancy

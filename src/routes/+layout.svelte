@@ -136,12 +136,6 @@
         box-sizing: border-box;
     }
 
-    @font-face {
-        font-family: "Fira Code", monospace;
-        font-display: optional;
-        src: url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap");
-    }
-
     :global(#svelte) {
         width: 100vw;
         height: 100%;
@@ -159,7 +153,8 @@
         width: 100%;
         height: 100%;
         overflow: auto;
-        font-family: "Fira Code", monospace;
+        font-size: 18px;
+        font-family: "IBM Plex Mono", monospace;
         background-color: #0a0908;
     }
 
@@ -257,7 +252,6 @@
     }
 
     footer {
-        font-size: 16px;
         font-weight: 400;
         padding: 30px 0;
         max-width: 900px;

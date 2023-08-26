@@ -7,7 +7,7 @@
 </script>
 
 <svelte:head>
-    <title>Florian Didron - Main page</title>
+    <title>Florian Didron - Home</title>
 </svelte:head>
 <main>
     <h1>Hi!✋ <br /> I'm Florian a Software Developer 💻 living between Japan and Thailand.</h1>
