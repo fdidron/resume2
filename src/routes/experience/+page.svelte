@@ -9,10 +9,6 @@
 <div class="projectContainer">
     <div class="projects">
         <h1>Experience</h1>
-        <p class="note">
-            Note: most of my projects are under NDA so I am unable to share those projects. If there
-            is anything you would like to see further, please feel free to contact me.
-        </p>
         {#each projects as project}
             <div class="project">
                 <div class="header">
@@ -22,18 +18,111 @@
                     <div class="techsContainer">
                         Technologies:
                         <div class="techs">
-                            {#each project.technologies as tech}
-                                <div>{tech}</div>
+                            {#each project.technologies as tech, idx}
+                                <div>
+                                    {tech}
+                                    {#if idx < project.technologies.length - 1}
+                                        -
+                                    {/if}
+                                </div>
                             {/each}
                         </div>
                     </div>
                 </div>
                 <p>
-                    {project.description}
+                    {#if project.slug == "zsa"}
+                        <p>
+                            A company building open-source keyboards for serious developers,
+                            creative professionals, and people who care deeply about their craft.
+                        </p>
+                        <p>
+                            Working for ZSA has been my main occupation for the past 6 years and it
+                            has been a delightful experience. As the lead developer my main role
+                            there is to develop the <a
+                                href="https://configure.zsa.io/moonlander/layouts/default/latest/0"
+                                target="_blank"
+                                rel="noopener nofollow">Oryx configurator</a
+                            >. Oryx is a React application communicating with a backend written in
+                            Ruby on Rails using graphql as the communication protocol. You can read
+                            more about the project
+                            <a
+                                href="https://www.zsa.io/oryx"
+                                target="_blank"
+                                rel="noopener nofollow">here</a
+                            >.
+                        </p>
+                        <p>
+                            It allows keyboard users to customize their layout, compile the
+                            resulting firmware on our servers and flash it to their keyboard from
+                            the comfort of their web browser without requiring any C knowledge.
+                            Alternatively, they can also download the firmware and flash it with <a
+                                href="https://www.zsa.io/wally/"
+                                target="_blank"
+                                rel="noopener nofollow">Wally</a
+                            >
+                            , a cross platform desktop application I also developed.
+                        </p>
+                        <p>
+                            I'm also responsible for managing the infrastructure, nothing fancy
+                            here, the glorious monolith is hosted on a VM, communicating with a
+                            PostgreSQL server hosted on the same sub network. Kubernetes ? No.
+                        </p>
+                        <p>
+                            Another role is to work and contribute back to the <a
+                                target="_blank"
+                                rel="noopener nofollow"
+                                href="https://github.com/qmk/qmk_firmware"
+                            >
+                                open-source firmware</a
+                            > running on the keyboards.
+                        </p>
+                        <p>
+                            Finally more recently I have been invovled in hardware design, the
+                            keyboard production process and touched on the wonderful world of low
+                            level coding and bootloaders.
+                        </p>
+                    {/if}
+                    {#if project.slug == "111studio"}
+                        <p>
+                            I Co-Founded 111Studio K.K, a japanese software development consultancy
+                            building custom software and managing teams and change for large
+                            japanaese and international companies. Throughout the 7 years of
+                            operating the company, I kept a developer role while managing a small
+                            team of developers and designers.
+                        </p>
+                        <p>The company was sold to one of our clients.</p>
+                    {/if}
+                    {#if project.slug == "mccann"}
+                        <p>A role I took as a service provider for 111Studio.</p>
+                        <p>
+                            Dispatched at Google Tokyo for two year on behalf of McCann Worldgroup,
+                            I was responsible for the operation of Google Adsense email marketing
+                            campaigns for the APAC Region.
+                        </p>
+                    {/if}
+                    {#if project.slug == "parrot"}
+                        <p>The job that bringed me to Japan !</p>
+                        <p>
+                            I was in charge of validating software releases for Japanese customers
+                            (Bluetooth Hardware and Software package for the automotive industry).
+                        </p>
+                    {/if}
+                    {#if project.slug == "thales"}
+                        <p>
+                            I was a Software Engineer working on Orange's billing software (Printing
+                            and Web Portal). Responsible of software enhancement studies and
+                            development.
+                        </p>
+                    {/if}
+                    {#if project.slug == "alcatel"}
+                        <p>
+                            Level 2 IT Administrator for Alcatel Europe & South's datacenter
+                            including system administration (HP-UX / Solaris / Suse / Windows 2003
+                            Server) as well as software administration (SAP / Lotus Domino /
+                            WebMethods).
+                        </p>
+                    {/if}
                 </p>
-                <a href={project.url} target="_blank" rel="noreferrer">
-                    <div class="button">Project url =></div>
-                </a>
             </div>
         {/each}
     </div>
@@ -96,7 +185,7 @@
 
     .project p {
         font-weight: 100;
-        color: #708090;
+        color: #e0e4e9;
     }
 
     .projects {

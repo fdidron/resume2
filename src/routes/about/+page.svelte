@@ -53,7 +53,7 @@
 <style>
     .container {
         max-width: 900px;
-        padding: 0;
+        padding: 1em;
         display: flex;
         justify-content: center;
     }

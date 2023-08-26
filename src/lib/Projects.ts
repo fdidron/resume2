@@ -1,24 +1,34 @@
 const projects = [
-	{
-		title: 'GDLauncher',
-		technologies: ['Node', 'React', 'Redux', 'Electron'],
-		description:
-			'GDLauncher is a simple, yet powerful Minecraft custom launcher with a strong focus on the user experience',
-		url: 'https://github.com/gorilla-devs/GDLauncher'
-	},
-	{
-		title: 'WiseMan Discord Bot',
-		technologies: ['NodeJs', 'FireBase', 'MongoDb', 'golang'],
-		description:
-			'The wiseMan bot allows you to level up based on the time you spend in a vocal channel',
-		url: 'https://github.com/Ladvace/WiseMan-DiscordBot'
-	},
-	{
-		title: 'Easy-react-carousel',
-		technologies: ['React', 'NodeJs'],
-		description: 'A simple carousel made in reactjs',
-		url: 'https://github.com/Ladvace/easy-react-carousel'
-	}
+    {
+        title: "ZSA Technology Labs - Lead Developer",
+        technologies: ["Ruby on Rails", "React", "C", "C#", "Golang", "Postgres"],
+        slug: "zsa"
+    },
+    {
+        title: "111Studio - Founder",
+        technologies: ["NodeJs", "React", "MongoDb", "Postgres"],
+        slug: "111studio"
+    },
+    {
+        title: "McCann Worldgroup - APAC Program Manager",
+        technologies: ["Big data", "Python", "NodeJs", "React", "R"],
+        slug: "mccann"
+    },
+    {
+        title: "Parrot - Validation Engineer",
+        technologies: ["C", "Bluetooth", "Embeded systems", "Linux"],
+        slug: "parrot"
+    },
+    {
+        title: "Thales France - Software Engineer",
+        technologies: ["C", "Perl", "Unix"],
+        slug: "thales"
+    },
+    {
+        title: "Alcatel-Lucent - Level 2 System Administrator",
+        technologies: ["Windows", "Unix", "Bash", "Perl"],
+        slug: "alcatel"
+    }
 ];
 
 export default projects;
