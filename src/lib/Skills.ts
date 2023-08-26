@@ -1,7 +1,7 @@
 const skills = {
     Programming: [
         "Ruby",
-        "Ruby on Rails",
+        "Rails",
         "Go",
         "C/C++",
         "C#",
