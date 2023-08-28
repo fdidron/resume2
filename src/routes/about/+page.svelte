@@ -11,7 +11,7 @@
         <h1>About</h1>
         <p>Hi, my name is Florian, a software developer living between Japan and Thailand.</p>
         <p>
-            Throughout my career, I have developed web services, desktop applications and worked on
+            For the past 20 years, I have developed web services, desktop applications and worked on
             embeddded devices.
         </p>
         <p>
